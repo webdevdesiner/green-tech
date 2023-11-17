@@ -1,0 +1,14 @@
+.logoArea
+{
+    width: 80%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(116, 116, 116);
+}
+
+
+img
+{
+    width: 900px;
+}
