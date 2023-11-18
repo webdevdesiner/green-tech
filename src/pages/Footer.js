@@ -11,16 +11,16 @@ function Footer()
        <footer className='FooterArea'>
         
         <div className='redeSociais'>
-            <div>
+            
                 <img src ={zapzap}/>
                 <img src = {email}/>
                 <img src = {insta}/>
                 <img src = {face}/>
-            </div>
+            
             
         </div>
        </footer>
     )
 }
 
-export default Footer
+export default Footer;

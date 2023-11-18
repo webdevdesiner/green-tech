@@ -1,28 +1,23 @@
 import React from 'react';
-import './Header.css';
-import Headerimg from '../pages/imagens greentech/imagens/1x/1x/greentech.png';
+import imagemlogo from './imagens greentech/imagens/1x/1x/greentech.png'
+import './Header.css'
+import {FaSearch, fasearch} from 'react-icons/fa';
 
+const Header = () => {
+  return (
+    <header>
+      
+      <div className="search-bar">
+        <input type="text" placeholder="Digite sua pesquisa..." />
+        <FaSearch className='iconeSearch'/>
+        <button type="submit">Pesquisar</button>
+      </div>
 
-function Header()
-{
-    return (
-       <header className='logoArea'>
-        
-        <div className='navArea'>
-            <div>
-                
-                <input type ="text" placeholder = "Digite a sua pesquisa..."></input>
-                <button type = "submit" >Pesquisar</button>
-            </div>
-            <div>
-        
-                <img src ={Headerimg}/>
-            </div>    
-            
-        </div>
-        
-       </header>
-    )
-}
+      <div className="logo">
+        <img className="imgBanner" src={imagemlogo} alt="Logo do Site" />
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
