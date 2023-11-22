@@ -3,6 +3,7 @@ import './App.css';
 import Header from './pages/Header';
 import Footer from './pages/Footer';
 import Card from './pages/Card';
+import Formulario from './pages/formulario';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
      <Header/>
      <Card />
+     <Formulario/>
      <Footer />
     </>
    
